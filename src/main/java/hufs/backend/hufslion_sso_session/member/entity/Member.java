@@ -48,7 +48,7 @@ public class Member extends BaseTimeEntity {
 	private String oauthId;
 
 	// 회원명(본명)
-	@Column(nullable = false, length = 10)
+	@Column(nullable = false, length = 50)
 	private String name;
 
 	// Member - RefreshToken, 1:N on Member perspective
